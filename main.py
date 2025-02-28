@@ -50,7 +50,7 @@ def init_session_states():
     if 'page' not in st.session_state:
         st.session_state.page = PageType.LANDING
     if 'users' not in st.session_state:
-        st.session_state.users = load_users('users.json')
+        st.session_state.users = load_users('files/users.json')
     if 'current_user' not in st.session_state:
         st.session_state.current_user = None
     if 'recommended_people' not in st.session_state:

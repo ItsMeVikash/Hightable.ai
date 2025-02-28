@@ -190,8 +190,8 @@ def show_sign_up_2():
 
 def set_recommendation():
     recom_system = RecommenderSystem(
-        faiss_path='/Users/vikash/Office/Hurrey Code/Hightable.ai/backend/hightable_ai_user_db',
-        event_path='/Users/vikash/Office/Hurrey Code/Hightable.ai/backend/hightable_ai_events.csv')
+        faiss_path='files/hightable_ai_user_db',
+        event_path='files/hightable_ai_events.csv')
 
     user: User = st.session_state.current_user
     intro, persona, budget_constraint, preferred_language, location = recom_system.get_user_details_from_user_dict(
@@ -250,7 +250,7 @@ def show_sign_up_3():
             for user in users:
                 users_json.append(user.to_dict())
 
-            with open('/Users/vikash/Office/Hurrey Code/Hightable.ai/users.json', 'w') as f:
+            with open('files/users.json', 'w') as f:
                 json.dump(users_json, f, indent=4)
 
             set_recommendation()
