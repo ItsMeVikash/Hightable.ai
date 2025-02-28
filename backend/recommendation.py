@@ -7,7 +7,7 @@ import json
 
 class RecommenderSystem:
     def __init__(self, faiss_path, event_path):
-        self.embeddings = HuggingFaceEmbeddings(model_name="paraphrase-mpnet-base-v2", model_kwargs={"device": "cuda"})
+        self.embeddings = HuggingFaceEmbeddings(model_name="paraphrase-mpnet-base-v2", model_kwargs={"device": "cpu"})
         self.db = FAISS.load_local(faiss_path,
                                    self.embeddings, allow_dangerous_deserialization=True)
         self.events_df = pd.read_csv(event_path)
