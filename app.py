@@ -8,7 +8,5 @@ if __name__ == '__main__':
     os.environ["STREAMLIT_THEME_FONT"] = "sans serif"
     os.environ["STREAMLIT_THEME_BASE"] = "light"
 
-    # Run the Streamlit app
     os.system('streamlit run main.py')
     # os.system('streamlit run main.py --server.address=0.0.0.0')
-
