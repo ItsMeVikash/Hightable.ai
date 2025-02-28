@@ -1,0 +1,154 @@
+[
+    {
+        "name": "Vikash kumar",
+        "username": "itzvikashkumar",
+        "password": "123456",
+        "location": "Bangalore",
+        "identity": {
+            "gender": "Male",
+            "dob": "22/02/1997",
+            "relationship_status": "Single",
+            "children": "No",
+            "profession": "Software Engineer",
+            "country": "India"
+        },
+        "personality": {
+            "opinions": "logical and facts",
+            "movie_choice": "author's film enthusiast",
+            "character": "smart person",
+            "fashion": "classic and timeless",
+            "ideal_night": "well-planned in advance",
+            "music_taste": "rap",
+            "introvertness": "Extremely Introverted",
+            "self_motivation": "Incredibly Self-Driven",
+            "creativity": "Fairly Creative",
+            "stress_levels": "Highly Stressed",
+            "job_satisfaction": "Dream Job",
+            "spirituality": "Deeply Enlightened",
+            "family_person": "Not Family-Oriented at All",
+            "loneliness": "Never Lonely",
+            "going_out_enjoyment": "Hates Going Out",
+            "workout_preference": "Hates Working Out",
+            "academic_importance": "Academic Success Doesn't Matter at All",
+            "nature_to_city_preference": "Loves Only Nature",
+            "politically_incorrect_humor": "Slightly Dislikes Politically Incorrect Humor",
+            "political_discussion": "Loves Discussing Politics"
+        },
+        "events_pref": [
+            {
+                "event_budget": 1000,
+                "preferred_language": [
+                    "English"
+                ],
+                "menu_options": [
+                    "I eat everything"
+                ],
+                "preferred_location": "Bangalore"
+            }
+        ],
+        "events_attended": []
+    },
+    {
+        "name": "Sreekesh Kulkarni ",
+        "username": "sreekesh",
+        "password": "123456",
+        "location": "Bangalore",
+        "identity": {
+            "gender": "Male",
+            "dob": "29/12/1997",
+            "relationship_status": "Single",
+            "children": "No",
+            "profession": "Software developer ",
+            "country": "India"
+        },
+        "personality": {
+            "opinions": "logical and facts",
+            "movie_choice": "author's film enthusiast",
+            "character": "smart person",
+            "fashion": "classic and timeless",
+            "ideal_night": "well-planned in advance",
+            "music_taste": "rap",
+            "introvertness": "Highly Extroverted",
+            "self_motivation": "Not Motivated at All",
+            "creativity": "Not Creative at All",
+            "stress_levels": "Not Stressed at All",
+            "job_satisfaction": "Terrible Job",
+            "spirituality": "Not Spiritual at All",
+            "family_person": "Not Family-Oriented at All",
+            "loneliness": "Never Lonely",
+            "going_out_enjoyment": "Hates Going Out",
+            "workout_preference": "Hates Working Out",
+            "academic_importance": "Academic Success Doesn't Matter at All",
+            "nature_to_city_preference": "Loves Only Nature",
+            "politically_incorrect_humor": "Strongly Dislikes Politically Incorrect Humor",
+            "political_discussion": "Hates Discussing Politics"
+        },
+        "events_pref": [
+            {
+                "event_budget": 1000,
+                "preferred_language": [
+                    "English"
+                ],
+                "menu_options": [
+                    "I eat everything"
+                ],
+                "preferred_location": "Bangalore"
+            }
+        ],
+        "events_attended": []
+    },
+    {
+        "name": "Sanjeev shenoy",
+        "username": "sanjeev.shenoy",
+        "password": "123456",
+        "location": "Bangalore",
+        "identity": {
+            "gender": "Male",
+            "dob": "11/02/1993",
+            "relationship_status": "Single",
+            "children": "No",
+            "profession": "Doctor",
+            "country": "India"
+        },
+        "personality": {
+            "opinions": "logical and facts",
+            "movie_choice": "author's film enthusiast",
+            "character": "smart person",
+            "fashion": "classic and timeless",
+            "ideal_night": "well-planned in advance",
+            "music_taste": "rap",
+            "introvertness": "Highly Extroverted",
+            "self_motivation": "Highly Motivated",
+            "creativity": "Fairly Creative",
+            "stress_levels": "Fairly Stressed",
+            "job_satisfaction": "Dream Job",
+            "spirituality": "Moderately Spiritual",
+            "family_person": "Fairly Family-Oriented",
+            "loneliness": "Moderately Lonely",
+            "going_out_enjoyment": "Hates Going Out",
+            "workout_preference": "Fairly Enjoys Working Out",
+            "academic_importance": "Academic Success is My Top Priority",
+            "nature_to_city_preference": "Leans Toward City",
+            "politically_incorrect_humor": "Mildly Enjoys Politically Incorrect Humor",
+            "political_discussion": "Moderately Enjoys Discussing Politics"
+        },
+        "events_pref": [
+            {
+                "event_budget": 1000,
+                "preferred_language": [
+                    "English",
+                    "Kannada",
+                    "Hindi"
+                ],
+                "menu_options": [
+                    "I eat everything",
+                    "Meat",
+                    "Fish",
+                    "Halal"
+                ],
+                "preferred_location": "Bangalore"
+            }
+        ],
+        "events_attended": []
+    }
+]
