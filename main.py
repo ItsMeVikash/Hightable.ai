@@ -1,7 +1,7 @@
-import streamlit as st
 import ssl
-import json
 from ssl import _create_unverified_context
+
+import streamlit as st
 
 from models.user import *
 from screens.authentication import show_registration_page

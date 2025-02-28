@@ -15,7 +15,7 @@ def show_person_detail(person_data: dict):
         df = pd.DataFrame(match_scores, columns=["Category", "Score"])
         chart = (
             alt.Chart(df)
-            .mark_bar(color="#e2b760")
+            .mark_bar(color="#ff4b4b")
             .encode(
                 x=alt.X("Score:Q", title="Score (%)", scale=alt.Scale(domain=[0, 100])),
                 y=alt.Y("Category:N", sort="-x")
@@ -75,7 +75,7 @@ def show_table_detail(table_data: dict):
         df = pd.DataFrame(match_scores, columns=["Category", "Score"])
         chart = (
             alt.Chart(df)
-            .mark_bar(color="#e2b760")
+            .mark_bar(color="#ff4b4b")
             .encode(
                 x=alt.X("Score:Q", title="Score (%)", scale=alt.Scale(domain=[0, 100])),
                 y=alt.Y("Category:N", sort="-x")  # Sort by highest to lowest
